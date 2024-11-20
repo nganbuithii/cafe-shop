@@ -1,6 +1,6 @@
 <div id='top' align="center">
 
-![Wowi Coffee](public/images/logo.svg)
+
 
 ## 🔧Technologies
 
