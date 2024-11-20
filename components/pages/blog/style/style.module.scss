@@ -1,0 +1,49 @@
+@import "/styles/variables.scss";
+.containerImage{
+    padding-top: 65.78947368421053%;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.contentEditor {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h2 {
+    font-size: 20px;
+    padding: 24px;
+    background-color: var(--greyE8Color);
+    border-radius: 8px;
+    margin: 24px 0;
+    img {
+      max-width: 30px;
+      max-height: 30px;
+    }
+    @media #{$media-ipad} {
+      padding: 16px;
+    }
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p,
+  ul,
+  li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--blackColor);
+    margin-bottom: 15px;
+  }
+  img {
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  a {
+    color: var(--blueColor);
+    &:hover {
+      color: var(--redColor);
+    }
+  }
+}
